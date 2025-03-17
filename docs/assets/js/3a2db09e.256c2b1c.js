@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcarol_soares_blog=self.webpackChunkcarol_soares_blog||[]).push([[121],{8070:a=>{a.exports=JSON.parse('{"tags":[{"label":"ia generativa","permalink":"/blog/tags/ia-generativa","count":1},{"label":"inova\xe7\xe3o","permalink":"/blog/tags/inovacao","count":1},{"label":"aprendizados","permalink":"/blog/tags/aprendizados","count":1}]}')}}]);
