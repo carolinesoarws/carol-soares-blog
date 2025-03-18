@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcarol_soares_blog=self.webpackChunkcarol_soares_blog||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Minha experi\xeancia trabalhando em um laborat\xf3rio de inova\xe7\xe3o nos ultimos 7 meses.","permalink":"/blog/long-blog-post","unlisted":false,"date":"2025-03-11T00:00:00.000Z"}]}')}}]);
