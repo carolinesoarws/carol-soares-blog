@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcarol_soares_blog=self.webpackChunkcarol_soares_blog||[]).push([[903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/build/blog","blogTitle":"Blog","authorsListPath":"/build/blog/authors"}')}}]);
