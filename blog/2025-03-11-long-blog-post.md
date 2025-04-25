@@ -2,7 +2,7 @@
 slug: long-blog-post
 title: 6 Months in an Innovation Lab
 authors: carolsoares
-tags: [generative AI, innovation, learnings, artificial intelligence, machine learning, technology, future, creativity, research, trends]
+tags: [generative AI, innovation, learnings, artificial intelligence, machine learning, technology, future, creativity, trends]
 ---
 
 
