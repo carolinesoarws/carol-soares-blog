@@ -6,7 +6,7 @@ tags: [generative AI, innovation, learnings, artificial intelligence, machine le
 
 ---
 
-It’s been about 9 months since I started working on developing solutions using artificial intelligence — with a particular focus on generative AI. In recognition of my contributions, my company awarded me the opportunity to attend TDC — The Developer Conference.
+It’s been about 9 months since I started working on developing solutions using artificial intelligence — with a particular focus on generative AI. In recognition of my contributions, my company awarded me the opportunity to attend TDC — The Developer Conference AI, that happen in São Paulo, Brazil.
 
 This conference is aimed at developers connecting with each other, discovering new trends, discussing best practices, sharing knowledge, etc. It was my first time attending a conference, and honestly, I felt like Sheldon! 😂😂
 
