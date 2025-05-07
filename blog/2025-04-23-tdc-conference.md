@@ -2,7 +2,7 @@
 slug: dtc-conference
 title: My Experience at TheDevConf 2025
 authors: carolsoares
-tags: [generative AI, innovation, learnings, artificial intelligence, machine learning, technology, future, creativity, research, trends]
+tags: [generative AI, innovation, learnings, artificial intelligence, machine learning, technology, future, creativity, research, trend]
 
 ---
 
