@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://carolinesoarws.github.io/carol-soares-blog/blog</id>
+    <title>Carol Soares Blog Blog</title>
+    <updated>2025-04-23T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://carolinesoarws.github.io/carol-soares-blog/blog"/>
+    <subtitle>Carol Soares Blog Blog</subtitle>
+    <icon>https://carolinesoarws.github.io/carol-soares-blog/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[My Experience at TheDevConf 2025]]></title>
+        <id>https://carolinesoarws.github.io/carol-soares-blog/blog/dtc-conference</id>
+        <link href="https://carolinesoarws.github.io/carol-soares-blog/blog/dtc-conference"/>
+        <updated>2025-04-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It’s been about 9 months since I started working on developing solutions using artificial intelligence — with a particular focus on generative AI. In recognition of my contributions, my company awarded me the opportunity to attend TDC — The Developer Conference AI, that happen in São Paulo, Brazil.]]></summary>
+        <content type="html"><![CDATA[<p>It’s been about 9 months since I started working on developing solutions using artificial intelligence — with a particular focus on generative AI. In recognition of my contributions, my company awarded me the opportunity to attend TDC — The Developer Conference AI, that happen in São Paulo, Brazil.</p>
+<p>This conference is aimed at developers connecting with each other, discovering new trends, discussing best practices, sharing knowledge, etc. It was my first time attending a conference, and honestly, I felt like Sheldon! 😂😂</p>
+<p align="center"></p><p><img decoding="async" loading="lazy" alt="Sheldon Cooper, a famous character from the TV sitcom The Big Bang Theory, wearing a red t-shirt, holding chopsticks and a plate, turning his head, and smiling with his mouth closed." src="https://carolinesoarws.github.io/carol-soares-blog/assets/images/sheldon-2183877f66927f36e40d0fbec60049c7.gif" width="498" height="268" class="img_ev3q"></p><p></p>
+<p>I’m someone who, on the surface, seems sociable, but I hate being in large crowds and never really got excited about these types of events. I always thought they were overrated. I don’t even believe in astrology, but I’ll blame it on my sign today hahahaha.</p>
+<p>The conference took place on March 26th and 27th, 2025, and it focused on artificial intelligence. There were several panels covering various topics related to generative AI. In general, the panels discussed how AI is being applied in different areas like healthcare, agriculture, software development, everyday life, and more. And I’d love to share some of the themes that impacted me the most.</p>
+<p align="center"></p><p><img decoding="async" loading="lazy" alt="a hand holding tdc name tag card" src="https://carolinesoarws.github.io/carol-soares-blog/assets/images/IMG_7760-2f7cf879e09bc3ea05dcc805efb3f41d.jpeg" width="4032" height="3024" class="img_ev3q"></p><p></p>
+<p>The first panel that really struck me was from a company that uses AI to monitor neonatal ICUs. Through the electrodes placed on the babies, data is collected and analyzed in real time by a system using generative AI. The case presented involved a newborn with complications. When the baby started having significant changes that required medical intervention, the system had already identified the issue <em>hours in advance</em> — the baby was having an epileptic seizure. With this analysis, doctors were able to act quickly, and the baby survived. In fact, the baby is now healthy and growing well, under medical supervision of course. Incredible, right? I was deeply moved by this case!</p>
+<p>The second impactful panel was about the use of generative AI in agriculture. They showed how AI is transforming the industry through soil, weather, and livestock analysis... The presenter even showed AI-powered cameras being used for these analyses, for example. One thing I was curious about was the stereotype that people in agriculture are resistant to technology. The speaker explained that the new generation in agribusiness is much more open to using technology in their daily work, and even many from older generations understand its importance now. It was really cool!!</p>
+<p>The third panel that impressed me was a presentation by a team working on modernizing legacy code. With the help of generative AI, a parte of the code that was expected to take a year to be complete, actually took 6 months. Amazing, right? That’s a huge time savings!</p>
+<p>What I enjoyed most about the talks I participated, was that the speakers emphasized the importance of using AI consciously and responsibly. And this goes way beyond just using AI for anything—it’s about knowing why you’re using it, applying prompt engineering to get accurate responses, validating whether the AI's response is correct, checking if it’s "hallucinating," and so on. Not to mention the environmental impact of AI usage, which is a real can of worms—girl, it’s scary!</p>
+<p>This conference was amazing! I had so much fun, learned a lot, and met some incredible professionals! For example, I participated in a mentorship focused on working on international projects, which is exactly the direction I want my career to go right now. I absolutely loved it and I think the experience is totally worth it!</p>
+<p>Negative points:</p>
+<ul>
+<li>The location wasn’t great, and there weren’t any nearby restaurants to have lunch without a long walk—which I didn’t love.</li>
+<li>The food experience was poor. The event had announced that there would be partner food vendors, but in the end, there weren’t any. There was a communication failure, which was a big deal since I spent the whole day there. Especially because I was alone and didn’t feel safe walking around that part of São Paulo on my own.</li>
+</ul>
+<p>Positive points:</p>
+<ul>
+<li>The venue itself was really nice.</li>
+<li>I got a bunch of free goodies, which was super fun!</li>
+</ul>
+<p align="center"></p><p><img decoding="async" loading="lazy" alt="ecobag that i got in the conference, the ecobag is white" src="https://carolinesoarws.github.io/carol-soares-blog/assets/images/IMG_7758-42dd02937b57361f043118ce3925efaf.jpeg" width="4032" height="3024" class="img_ev3q"></p><p></p>
+<ul>
+<li>The "silent presentation" format was the coolest part: basically, three panels were happening at the same time. We wore headphones and could switch stations at any time to follow whichever presentation we wanted.</li>
+<li>I really enjoyed the networking, the spaces, the mentoring sessions, and the companies that were there!</li>
+</ul>
+<p>All in all, it was absolutely worth it!</p>]]></content>
+        <author>
+            <name>Carol Soares</name>
+            <uri>https://github.com/carolinesoarws</uri>
+        </author>
+        <category label="generative AI" term="generative AI"/>
+        <category label="innovation" term="innovation"/>
+        <category label="learnings" term="learnings"/>
+        <category label="artificial intelligence" term="artificial intelligence"/>
+        <category label="machine learning" term="machine learning"/>
+        <category label="technology" term="technology"/>
+        <category label="future" term="future"/>
+        <category label="creativity" term="creativity"/>
+        <category label="research" term="research"/>
+        <category label="trends" term="trends"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[6 Months in an Innovation Lab]]></title>
+        <id>https://carolinesoarws.github.io/carol-soares-blog/blog/long-blog-post</id>
+        <link href="https://carolinesoarws.github.io/carol-soares-blog/blog/long-blog-post"/>
+        <updated>2025-03-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Six months ago, I started working on an innovation project. The main idea of this project is to test innovative solutions for problems using Generative AI. It's been a completely new world for me, as until then, I had only worked on product delivery. Working in this lab completely took me out of my bubble, especially because I am a backend engineer. During this period, I've learned a few things:]]></summary>
+        <content type="html"><![CDATA[<p>Six months ago, I started working on an innovation project. The main idea of this project is to test innovative solutions for problems using Generative AI. It's been a completely new world for me, as until then, I had only worked on product delivery. Working in this lab completely took me out of my bubble, especially because I am a backend engineer. During this period, I've learned a few things:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="not-everything-can-be-solved-with-generative-ais">Not Everything Can Be Solved with Generative AIs<a href="https://carolinesoarws.github.io/carol-soares-blog/blog/long-blog-post#not-everything-can-be-solved-with-generative-ais" class="hash-link" aria-label="Direct link to Not Everything Can Be Solved with Generative AIs" title="Direct link to Not Everything Can Be Solved with Generative AIs">​</a></h3>
+<p>The tech world is as crazy as the release of a new pop diva's album. The revolution of some emerging technologies makes many people in the market, especially business leaders, rush to implement these solutions at any cost. When a pop diva releases an iconic album, it's literally written in the stars that all brands, trends, and even the fashion industry will ride that wave. The same happens in technology: when truly impactful innovation arises, everyone wants to adopt, adapt, and capitalize on it. The problem is that, often, this rush happens without a real understanding of whether that tool is truly the right solution for the problem.</p>
+<p>What I love most about this project is that it forces me to think outside of my bubble and even question whether the solution I’m proposing really makes sense for the business problem we’re solving or if Generative AI meets our expectations. Not every problem needs Generative AI to be solved, but the fact that we reflect on the effectiveness of these technologies in our challenges completely changes the idea of "just using technology at any cost."</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="best-practices-and-automation-yes-always">Best Practices and Automation, Yes, Always!<a href="https://carolinesoarws.github.io/carol-soares-blog/blog/long-blog-post#best-practices-and-automation-yes-always" class="hash-link" aria-label="Direct link to Best Practices and Automation, Yes, Always!" title="Direct link to Best Practices and Automation, Yes, Always!">​</a></h3>
+<p>In this project, we deliver rapid prototypes. Therefore, we are constantly testing new solutions and making them available for evaluation. The fact that we deliver only prototypes <strong>does not</strong> mean that software best practices should be neglected. I’ve felt firsthand how important it is to apply good development practices and have automated deployment in all projects.</p>
+<p>Using new technology doesn’t mean we need to abandon best practices or leave them only partially structured. They exist for a good reason: to make the developer's life easier and increase delivery speed. It has been very satisfying to see the greatness of these practices applied in my daily work, especially aligned with Generative AI, which means that a new technology <em>should not override</em> everything else. I love software best practices, and once you work by following this model, you don't want to do things any other way.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-exponential-power-of-generative-ai">The Exponential Power of Generative AI<a href="https://carolinesoarws.github.io/carol-soares-blog/blog/long-blog-post#the-exponential-power-of-generative-ai" class="hash-link" aria-label="Direct link to The Exponential Power of Generative AI" title="Direct link to The Exponential Power of Generative AI">​</a></h3>
+<p>During this time, I had the chance to use some Generative AI models for our deliveries, and it’s fascinating to see the exponential power of these technologies. One of the most striking models was OpenAI’s embedding model, as well as the model for working with voice.</p>
+<p>At one point, I had to work with RAG on a vector database, combined with an embedding model. It was <strong>soo</strong> cool to see the program's behavior when returning data based on search similarity, everything felt magical! But if there’s no good database foundation, things can backfire. Also, some libraries can be heavy in Python, so if you don’t have a machine that can handle it, you might end up with some headaches.</p>
+<p>In my experience, I used chromadb as a vector database, and wow, that was a sentimental little database. Just one wrong configuration, and it doesn't work properly. At the time, I had to deploy it on AWS, and even though I configured communication ports for it to access the internet, it would pick any port except the one we wanted, and that was a pain! But for small tests, it behaved well, which makes me excited about the possibilities. I’m currently exploring other vector databases, but it was really cool to learn from chromadb. I didn’t know the concepts too deeply, but it was super interesting to work with.</p>
+<p>What saved me many times was the fact that I had a powerful machine to work with. I’ve crashed my PC about 4 times in a row testing some extremely heavy models and libraries, but my machine survived. Even working with AWS Lambda or EC2, the process of using the libraries can be slow depending on the installation process, and Docker was our ally in that fight. One thing that makes me reflect on Gen AI is the fact that we need to have a decent machine to work with some libraries and models, at least locally. At least in my experience, after we included Docker, it became much easier to work with these heavier libraries like langchain, a dream on a summer night, literally.</p>
+<p>With the voice model, it was very interesting to notice the naturalness in the speech, especially with some accents, which really surprised me!! The model we tested for conversation flow had such a great tone that can be calibrated, which opens infinite possibilities for accessibility, and that's amazing!</p>
+<p>Generative AI, when aligned correctly, is amazing and takes delivery standards to the next level! I’ve learned to be flexible in this regard, the ability to test different models, aligned with best practices, is out of this world.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="women-in-power">Women in Power!<a href="https://carolinesoarws.github.io/carol-soares-blog/blog/long-blog-post#women-in-power" class="hash-link" aria-label="Direct link to Women in Power!" title="Direct link to Women in Power!">​</a></h3>
+<p>In this project, many amazing, intelligent, and supportive people have passed through. But I’m very proud to say that the team is mostly female. What a joy it is to work with other women, share experiences… I feel heard, welcomed, and embraced. A privilege!</p>
+<p>These past few months have been great.</p>]]></content>
+        <author>
+            <name>Carol Soares</name>
+            <uri>https://github.com/carolinesoarws</uri>
+        </author>
+        <category label="generative AI" term="generative AI"/>
+        <category label="innovation" term="innovation"/>
+        <category label="learnings" term="learnings"/>
+        <category label="artificial intelligence" term="artificial intelligence"/>
+        <category label="machine learning" term="machine learning"/>
+        <category label="technology" term="technology"/>
+        <category label="future" term="future"/>
+        <category label="creativity" term="creativity"/>
+        <category label="trends" term="trends"/>
+    </entry>
+</feed>
