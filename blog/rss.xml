@@ -4,20 +4,151 @@
         <title>Carol Soares Blog Blog</title>
         <link>https://carolinesoarws.github.io/carol-soares-blog/blog</link>
         <description>Carol Soares Blog Blog</description>
-        <lastBuildDate>Wed, 23 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[What is a Large Language Model (LLM)?]]></title>
+            <link>https://carolinesoarws.github.io/carol-soares-blog/blog/large-language-models-llm</link>
+            <guid>https://carolinesoarws.github.io/carol-soares-blog/blog/large-language-models-llm</guid>
+            <pubDate>Sat, 31 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[A simple yet technical guide to understanding Large Language Models (LLMs) and how they’re reshaping the way we build products.]]></description>
+            <content:encoded><![CDATA[<p>Hey everyone! 💻✨ <br></p>
+<p>Today I want to talk about something I’ve been working: <strong>Large Language Models</strong> (LLMs). If you've been hearing a lot about ChatGPT, Bard, Claude, or LLaMA and wondered <em>what all the buzz is about</em> — I’ve got you. Let’s break it down in a clear and friendly way.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-exactly-is-a-large-language-model">What Exactly Is a Large Language Model?<a href="https://carolinesoarws.github.io/carol-soares-blog/blog/large-language-models-llm#what-exactly-is-a-large-language-model" class="hash-link" aria-label="Direct link to What Exactly Is a Large Language Model?" title="Direct link to What Exactly Is a Large Language Model?">​</a></h2>
+<p>A <strong>Large Language Model</strong> is a type of <strong>artificial intelligence</strong> designed to understand and generate human language. Think of it as a super smart assistant that’s read massive amounts of data — books, articles, code, forum posts, and even images or videos — and now knows how to generate coherent and useful text responses. 🤯</p>
+<p>They're called <em>"large"</em> because they contain billions (and sometimes trillions!) of parameters — which are essentially learned settings that help the model detect patterns in language.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-are-llms-created">How Are LLMs Created?<a href="https://carolinesoarws.github.io/carol-soares-blog/blog/large-language-models-llm#how-are-llms-created" class="hash-link" aria-label="Direct link to How Are LLMs Created?" title="Direct link to How Are LLMs Created?">​</a></h2>
+<p>Everything starts with <strong>training</strong> — and here’s where things get a little technical, but in a good way.</p>
+<p>At the core of most LLMs is a deep learning architecture called the <strong>Transformer</strong>, introduced by Google in 2017. (For the curious minds, here’s the original <a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer">“Attention Is All You Need”</a> paper.) This architecture revolutionized the way we work with language in AI by making it possible to model relationships between words over long distances in a text.</p>
+<p>Rather than analyzing words one at a time, Transformers allow the model to understand entire sequences at once — similar to how <em>you</em> read a sentence and instantly grasp its meaning, even without emojis or GIFs. 💬</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tools-that-power-llm-development">Tools That Power LLM Development<a href="https://carolinesoarws.github.io/carol-soares-blog/blog/large-language-models-llm#tools-that-power-llm-development" class="hash-link" aria-label="Direct link to Tools That Power LLM Development" title="Direct link to Tools That Power LLM Development">​</a></h3>
+<p>Most LLMs are developed using <strong>Python</strong>, alongside popular deep learning libraries like:</p>
+<ul>
+<li><strong>PyTorch</strong> – widely used in research and production</li>
+<li><strong>TensorFlow</strong> – known for its scalability and performance</li>
+<li><strong>JAX</strong> – favored by Google for high-performance model training</li>
+</ul>
+<p>These frameworks help build the model’s internal architecture, which includes:</p>
+<ul>
+<li><strong>Embedding layers</strong> – turn words into vector representations the model can process</li>
+<li><strong>Multi-head self-attention</strong> – lets the model "pay attention" to all words in a sentence at once</li>
+<li><strong>Feed-forward neural networks</strong> – deepen the understanding of context</li>
+<li><strong>Layer normalization and residual connections</strong> – stabilize the learning process</li>
+</ul>
+<p>These components are stacked dozens of times (up to 96 layers in models like GPT-4), resulting in deep networks with <em>massive</em> capacity for language understanding.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-do-llms-actually-learn">How Do LLMs Actually Learn?<a href="https://carolinesoarws.github.io/carol-soares-blog/blog/large-language-models-llm#how-do-llms-actually-learn" class="hash-link" aria-label="Direct link to How Do LLMs Actually Learn?" title="Direct link to How Do LLMs Actually Learn?">​</a></h2>
+<p>LLMs are trained using <strong>self-supervised learning</strong>, which means they learn by predicting words in vast amounts of unlabeled text.</p>
+<p>There are two common objectives:</p>
+<ul>
+<li><strong>Causal Language Modeling (CLM)</strong> – Predict the <em>next</em> word in a sentence (e.g., GPT)</li>
+<li><strong>Masked Language Modeling (MLM)</strong> – Predict <em>missing</em> words in a sentence (e.g., BERT)</li>
+</ul>
+<p>To learn, the model uses:</p>
+<ul>
+<li><strong>Backpropagation</strong> – a mathematical technique for adjusting internal parameters based on mistakes</li>
+<li><strong>Gradient descent</strong> – an optimization method that helps the model improve gradually with each example</li>
+</ul>
+<p>With time and repetition, the model becomes excellent at predicting what comes next in a sentence — which is exactly what allows it to write stories, generate code, answer questions, and so much more.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="training-at-scale-think-brain-meets-gym">Training at Scale: Think Brain Meets Gym<a href="https://carolinesoarws.github.io/carol-soares-blog/blog/large-language-models-llm#training-at-scale-think-brain-meets-gym" class="hash-link" aria-label="Direct link to Training at Scale: Think Brain Meets Gym" title="Direct link to Training at Scale: Think Brain Meets Gym">​</a></h2>
+<p>Training an LLM is like putting a super brain in a data gym — for <em>weeks</em> or even <em>months</em>.</p>
+<p>It requires:</p>
+<ul>
+<li>
+<p><strong>Hardware</strong>: Hundreds to thousands of GPUs (e.g., NVIDIA A100s) or TPUs</p>
+</li>
+<li>
+<p><strong>Data</strong>: Terabytes of curated text — books, articles, forums, code repositories, etc.</p>
+</li>
+<li>
+<p><strong>Optimization techniques</strong>:</p>
+<ul>
+<li><strong>Mixed precision training</strong> (for memory efficiency)</li>
+<li><strong>Gradient checkpointing</strong> (to reduce memory usage)</li>
+<li><strong>Data/model parallelism</strong> (to spread the workload across multiple devices)</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-happens-after-training">What Happens After Training?<a href="https://carolinesoarws.github.io/carol-soares-blog/blog/large-language-models-llm#what-happens-after-training" class="hash-link" aria-label="Direct link to What Happens After Training?" title="Direct link to What Happens After Training?">​</a></h2>
+<p>Once the model is trained, it can be:</p>
+<ul>
+<li><strong>Fine-tuned</strong> for specific domains (e.g., healthcare, law, customer support)</li>
+<li><strong>Aligned</strong> with human values using <strong>Reinforcement Learning from Human Feedback (RLHF)</strong> — the secret sauce behind ChatGPT’s natural tone</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="where-are-llms-being-used">Where Are LLMs Being Used?<a href="https://carolinesoarws.github.io/carol-soares-blog/blog/large-language-models-llm#where-are-llms-being-used" class="hash-link" aria-label="Direct link to Where Are LLMs Being Used?" title="Direct link to Where Are LLMs Being Used?">​</a></h2>
+<p>Everywhere! Some real-world applications include:</p>
+<ul>
+<li><strong>Chatbots</strong> and <strong>virtual assistants</strong> (like ChatGPT, Bard, Copilot)</li>
+<li><strong>Internal knowledge bases</strong> and <strong>customer support tools</strong></li>
+<li><strong>Coding assistants</strong> (GitHub Copilot, Cody, etc.)</li>
+<li><strong>Business intelligence</strong> (summarizing reports, extracting insights)</li>
+<li><strong>Education</strong> (tutoring, quiz generation)</li>
+<li><strong>Marketing &amp; eCommerce</strong> (product descriptions, reviews, emails)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-developers-use-llms-every-day">How Developers Use LLMs Every Day<a href="https://carolinesoarws.github.io/carol-soares-blog/blog/large-language-models-llm#how-developers-use-llms-every-day" class="hash-link" aria-label="Direct link to How Developers Use LLMs Every Day" title="Direct link to How Developers Use LLMs Every Day">​</a></h2>
+<p>LLMs are easier to integrate than ever — here’s how devs can use them right now:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-openai-gpt-chatgpt">1. <strong>OpenAI GPT (ChatGPT)</strong><a href="https://carolinesoarws.github.io/carol-soares-blog/blog/large-language-models-llm#1-openai-gpt-chatgpt" class="hash-link" aria-label="Direct link to 1-openai-gpt-chatgpt" title="Direct link to 1-openai-gpt-chatgpt">​</a></h3>
+<p>Use the <a href="https://platform.openai.com/docs" target="_blank" rel="noopener noreferrer">OpenAI API</a> to add <code>gpt-4</code> or <code>gpt-3.5-turbo</code> to your apps.</p>
+<p>Use cases:
+Chatbots, AI helpdesks, content generation, code explanation, test generation.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-google-palm-2--gemini">2. <strong>Google PaLM 2 / Gemini</strong><a href="https://carolinesoarws.github.io/carol-soares-blog/blog/large-language-models-llm#2-google-palm-2--gemini" class="hash-link" aria-label="Direct link to 2-google-palm-2--gemini" title="Direct link to 2-google-palm-2--gemini">​</a></h3>
+<p>Google Cloud’s <a href="https://cloud.google.com/vertex-ai/docs/generative-ai/overview" target="_blank" rel="noopener noreferrer">Vertex AI</a> supports powerful LLMs for enterprise apps.</p>
+<p>Use cases:
+Multimodal apps, enterprise search, document analysis.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-anthropic-claude">3. <strong>Anthropic Claude</strong><a href="https://carolinesoarws.github.io/carol-soares-blog/blog/large-language-models-llm#3-anthropic-claude" class="hash-link" aria-label="Direct link to 3-anthropic-claude" title="Direct link to 3-anthropic-claude">​</a></h3>
+<p><a href="https://www.anthropic.com/index/introducing-claude" target="_blank" rel="noopener noreferrer">Claude</a> is known for its thoughtful responses and safe design. Great for structured Q&amp;A and summarization.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-meta-llama-open-source">4. <strong>Meta LLaMA (Open Source)</strong><a href="https://carolinesoarws.github.io/carol-soares-blog/blog/large-language-models-llm#4-meta-llama-open-source" class="hash-link" aria-label="Direct link to 4-meta-llama-open-source" title="Direct link to 4-meta-llama-open-source">​</a></h3>
+<p><a href="https://ai.meta.com/llama/" target="_blank" rel="noopener noreferrer">Meta’s LLaMA</a> models are open-source and ideal for:</p>
+<ul>
+<li><strong>Privacy-first apps</strong> – Your users' data stays with you</li>
+<li><strong>On-device AI</strong> – No internet? No problem</li>
+<li><strong>Lightweight experimentation</strong> – Great for prototyping without cloud costs</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-hugging-face-transformers">5. <strong>Hugging Face Transformers</strong><a href="https://carolinesoarws.github.io/carol-soares-blog/blog/large-language-models-llm#5-hugging-face-transformers" class="hash-link" aria-label="Direct link to 5-hugging-face-transformers" title="Direct link to 5-hugging-face-transformers">​</a></h3>
+<p>The ultimate playground for developers and researchers.
+<a href="https://huggingface.co/docs/transformers/index" target="_blank" rel="noopener noreferrer">HuggingFace Transformers</a> lets you load and test LLMs like GPT, T5, BERT, and more:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">pip install transformers</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">from</span><span class="token plain"> transformers </span><span class="token keyword" style="color:#00009f">import</span><span class="token plain"> pipeline</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">generator </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> pipeline</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"text-generation"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> model</span><span class="token operator" style="color:#393A34">=</span><span class="token string" style="color:#e3116c">"gpt2"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">generator</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"Once upon a time,"</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> max_length</span><span class="token operator" style="color:#393A34">=</span><span class="token number" style="color:#36acaa">50</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="llms-in-products-real-examples">LLMs in Products: Real Examples<a href="https://carolinesoarws.github.io/carol-soares-blog/blog/large-language-models-llm#llms-in-products-real-examples" class="hash-link" aria-label="Direct link to LLMs in Products: Real Examples" title="Direct link to LLMs in Products: Real Examples">​</a></h2>
+<ul>
+<li><strong>E-commerce</strong>: Smart descriptions, review summaries, product Q&amp;A</li>
+<li><strong>EdTech</strong>: Lesson planners, tutoring, content feedback</li>
+<li><strong>Healthcare</strong>: Summarizing notes, answering medical FAQs (responsibly)</li>
+<li><strong>Business</strong>: Analyzing emails, reports, and meeting summaries</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-final-thoughts">❤️ Final Thoughts<a href="https://carolinesoarws.github.io/carol-soares-blog/blog/large-language-models-llm#%EF%B8%8F-final-thoughts" class="hash-link" aria-label="Direct link to ❤️ Final Thoughts" title="Direct link to ❤️ Final Thoughts">​</a></h2>
+<p>We’re only scratching the surface of what LLMs can do. As developers, product builders, and creators, we’re in a moment of incredible opportunity.</p>
+<p>✨ Start small — test an API, build a chatbot, experiment with a prompt.
+You’ll be surprised how far your creativity can take you with these tools at your side.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="useful-links-recap">Useful Links Recap<a href="https://carolinesoarws.github.io/carol-soares-blog/blog/large-language-models-llm#useful-links-recap" class="hash-link" aria-label="Direct link to Useful Links Recap" title="Direct link to Useful Links Recap">​</a></h2>
+<ul>
+<li><a href="https://platform.openai.com/docs" target="_blank" rel="noopener noreferrer">OpenAI GPT API Docs</a></li>
+<li><a href="https://huggingface.co/docs/transformers/index" target="_blank" rel="noopener noreferrer">HuggingFace Transformers</a></li>
+<li><a href="https://cloud.google.com/vertex-ai/docs/generative-ai/overview" target="_blank" rel="noopener noreferrer">Google Vertex AI</a></li>
+<li><a href="https://www.anthropic.com/index/introducing-claude" target="_blank" rel="noopener noreferrer">Anthropic Claude</a></li>
+<li><a href="https://ai.meta.com/llama/" target="_blank" rel="noopener noreferrer">Meta LLaMA</a></li>
+<li><a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer">“Attention is All You Need” (original paper)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Large_language_model" target="_blank" rel="noopener noreferrer">Large language model – Wikipedia</a></li>
+</ul>]]></content:encoded>
+            <category>ai</category>
+            <category>llm</category>
+            <category>generative ai</category>
+            <category>product-development</category>
+        </item>
         <item>
             <title><![CDATA[My Experience at TheDevConf 2025]]></title>
             <link>https://carolinesoarws.github.io/carol-soares-blog/blog/dtc-conference</link>
             <guid>https://carolinesoarws.github.io/carol-soares-blog/blog/dtc-conference</guid>
             <pubDate>Wed, 23 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[It’s been about 9 months since I started working on developing solutions using artificial intelligence — with a particular focus on generative AI. In recognition of my contributions, my company awarded me the opportunity to attend TDC — The Developer Conference AI, that happen in São Paulo, Brazil.]]></description>
-            <content:encoded><![CDATA[<p>It’s been about 9 months since I started working on developing solutions using artificial intelligence — with a particular focus on generative AI. In recognition of my contributions, my company awarded me the opportunity to attend TDC — The Developer Conference AI, that happen in São Paulo, Brazil.</p>
+            <description><![CDATA[Hey everyone! 💻✨]]></description>
+            <content:encoded><![CDATA[<p>Hey everyone! 💻✨ <br></p>
+<p>It’s been about 9 months since I started working on developing solutions using artificial intelligence — with a particular focus on generative AI. In recognition of my contributions, my company awarded me the opportunity to attend TDC — The Developer Conference AI, that happen in São Paulo, Brazil.</p>
 <p>This conference is aimed at developers connecting with each other, discovering new trends, discussing best practices, sharing knowledge, etc. It was my first time attending a conference, and honestly, I felt like Sheldon! 😂😂</p>
 <p align="center"></p><p><img decoding="async" loading="lazy" alt="Sheldon Cooper, a famous character from the TV sitcom The Big Bang Theory, wearing a red t-shirt, holding chopsticks and a plate, turning his head, and smiling with his mouth closed." src="https://carolinesoarws.github.io/carol-soares-blog/assets/images/sheldon-2183877f66927f36e40d0fbec60049c7.gif" width="498" height="268" class="img_ev3q"></p><p></p>
-<p>I’m someone who, on the surface, seems sociable, but I hate being in large crowds and never really got excited about these types of events. I always thought they were overrated. I don’t even believe in astrology, but I’ll blame it on my sign today hahahaha.</p>
+<p>I’m someone who, on the surface, seems sociable, but I hate being in large crowds and never really got excited about these types of events. I've always thought they were overrated. I don’t even believe in astrology, but I’ll blame it on my sign today hahahaha.</p>
 <p>The conference took place on March 26th and 27th, 2025, and it focused on artificial intelligence. There were several panels covering various topics related to generative AI. In general, the panels discussed how AI is being applied in different areas like healthcare, agriculture, software development, everyday life, and more. And I’d love to share some of the themes that impacted me the most.</p>
 <p align="center"></p><p><img decoding="async" loading="lazy" alt="a hand holding tdc name tag card" src="https://carolinesoarws.github.io/carol-soares-blog/assets/images/IMG_7760-2f7cf879e09bc3ea05dcc805efb3f41d.jpeg" width="4032" height="3024" class="img_ev3q"></p><p></p>
 <p>The first panel that really struck me was from a company that uses AI to monitor neonatal ICUs. Through the electrodes placed on the babies, data is collected and analyzed in real time by a system using generative AI. The case presented involved a newborn with complications. When the baby started having significant changes that required medical intervention, the system had already identified the issue <em>hours in advance</em> — the baby was having an epileptic seizure. With this analysis, doctors were able to act quickly, and the baby survived. In fact, the baby is now healthy and growing well, under medical supervision of course. Incredible, right? I was deeply moved by this case!</p>
@@ -45,7 +176,6 @@
             <category>innovation</category>
             <category>learnings</category>
             <category>artificial intelligence</category>
-            <category>machine learning</category>
             <category>technology</category>
             <category>future</category>
             <category>creativity</category>
@@ -57,8 +187,9 @@
             <link>https://carolinesoarws.github.io/carol-soares-blog/blog/long-blog-post</link>
             <guid>https://carolinesoarws.github.io/carol-soares-blog/blog/long-blog-post</guid>
             <pubDate>Tue, 11 Mar 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Six months ago, I started working on an innovation project. The main idea of this project is to test innovative solutions for problems using Generative AI. It's been a completely new world for me, as until then, I had only worked on product delivery. Working in this lab completely took me out of my bubble, especially because I am a backend engineer. During this period, I've learned a few things:]]></description>
-            <content:encoded><![CDATA[<p>Six months ago, I started working on an innovation project. The main idea of this project is to test innovative solutions for problems using Generative AI. It's been a completely new world for me, as until then, I had only worked on product delivery. Working in this lab completely took me out of my bubble, especially because I am a backend engineer. During this period, I've learned a few things:</p>
+            <description><![CDATA[Hey everyone! 💻✨]]></description>
+            <content:encoded><![CDATA[<p>Hey everyone! 💻✨ <br></p>
+<p>Six months ago, I started working on an innovation project. The main idea of this project is to test innovative solutions for problems using Generative AI. It's been a completely new world for me, as until then, I had only worked on product delivery. Working in this lab completely took me out of my bubble, especially because I am a backend engineer. During this period, I've learned a few things:</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="not-everything-can-be-solved-with-generative-ais">Not Everything Can Be Solved with Generative AIs<a href="https://carolinesoarws.github.io/carol-soares-blog/blog/long-blog-post#not-everything-can-be-solved-with-generative-ais" class="hash-link" aria-label="Direct link to Not Everything Can Be Solved with Generative AIs" title="Direct link to Not Everything Can Be Solved with Generative AIs">​</a></h3>
 <p>The tech world is as crazy as the release of a new pop diva's album. The revolution of some emerging technologies makes many people in the market, especially business leaders, rush to implement these solutions at any cost. When a pop diva releases an iconic album, it's literally written in the stars that all brands, trends, and even the fashion industry will ride that wave. The same happens in technology: when truly impactful innovation arises, everyone wants to adopt, adapt, and capitalize on it. The problem is that, often, this rush happens without a real understanding of whether that tool is truly the right solution for the problem.</p>
 <p>What I love most about this project is that it forces me to think outside of my bubble and even question whether the solution I’m proposing really makes sense for the business problem we’re solving or if Generative AI meets our expectations. Not every problem needs Generative AI to be solved, but the fact that we reflect on the effectiveness of these technologies in our challenges completely changes the idea of "just using technology at any cost."</p>
