@@ -16,17 +16,17 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'Currículo',
     imgSrc: resumeImg,    
-    description: <>Conheça mais sobre a minha carreira.</>,
+    description: <>Learn more about my career.</>,
   },
   {
     title: 'Blog',
     imgSrc: blogImg,
-    description: <>Um lugar para conversarmos sobre diversos temas.</>,
+    description: <>A place for us to talk about different topics.</>,
   },
   {
     title: 'Docs',
     imgSrc: docsImg,
-    description: <>Documentações técnicas que escrevi.</>,
+    description: <>Technical documentation I’ve written.</>,
   },
 ];
 

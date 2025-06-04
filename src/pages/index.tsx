@@ -18,8 +18,8 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}> 
-          Bem vindos ao meu blog pessoal!  <br /> Espaço que criei para compartilhar minhas experiências profissionais, <br />
-          documentações e dicas, livros que eu escrevi e muito mais!
+         Welcome to my personal blog!  <br /> This is a space I created to share my professional experiences, documentation and tips, <br/>
+         books I’ve written, and much more!
         </div>
       </div>
     </header>
