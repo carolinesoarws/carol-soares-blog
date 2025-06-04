@@ -1,0 +1,104 @@
+{
+  "permalink": "/carol-soares-blog/blog/dtc-conference",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-04-23-tdc-conference.md",
+  "source": "@site/blog/2025-04-23-tdc-conference.md",
+  "title": "My Experience at TheDevConf 2025",
+  "description": "It’s been about 9 months since I started working on developing solutions using artificial intelligence — with a particular focus on generative AI. In recognition of my contributions, my company awarded me the opportunity to attend TDC — The Developer Conference AI, that happen in São Paulo, Brazil.",
+  "date": "2025-04-23T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "generative AI",
+      "permalink": "/carol-soares-blog/blog/tags/generative-ai"
+    },
+    {
+      "inline": true,
+      "label": "innovation",
+      "permalink": "/carol-soares-blog/blog/tags/innovation"
+    },
+    {
+      "inline": true,
+      "label": "learnings",
+      "permalink": "/carol-soares-blog/blog/tags/learnings"
+    },
+    {
+      "inline": true,
+      "label": "artificial intelligence",
+      "permalink": "/carol-soares-blog/blog/tags/artificial-intelligence"
+    },
+    {
+      "inline": true,
+      "label": "machine learning",
+      "permalink": "/carol-soares-blog/blog/tags/machine-learning"
+    },
+    {
+      "inline": true,
+      "label": "technology",
+      "permalink": "/carol-soares-blog/blog/tags/technology"
+    },
+    {
+      "inline": true,
+      "label": "future",
+      "permalink": "/carol-soares-blog/blog/tags/future"
+    },
+    {
+      "inline": true,
+      "label": "creativity",
+      "permalink": "/carol-soares-blog/blog/tags/creativity"
+    },
+    {
+      "inline": true,
+      "label": "research",
+      "permalink": "/carol-soares-blog/blog/tags/research"
+    },
+    {
+      "inline": true,
+      "label": "trends",
+      "permalink": "/carol-soares-blog/blog/tags/trends"
+    }
+  ],
+  "readingTime": 3.99,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Carol Soares",
+      "title": "Backend Enginner @ Thoughtworks",
+      "url": "https://github.com/carolinesoarws",
+      "page": {
+        "permalink": "/carol-soares-blog/blog/authors/carolsoares"
+      },
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/caroline-soares-0ba238107/",
+        "github": "https://github.com/carolinesoarws"
+      },
+      "imageURL": "https://avatars.githubusercontent.com/u/83501330?v=4",
+      "key": "carolsoares"
+    }
+  ],
+  "frontMatter": {
+    "slug": "dtc-conference",
+    "title": "My Experience at TheDevConf 2025",
+    "authors": "carolsoares",
+    "tags": [
+      "generative AI",
+      "innovation",
+      "learnings",
+      "artificial intelligence",
+      "machine learning",
+      "technology",
+      "future",
+      "creativity",
+      "research",
+      "trends"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Fun Python Tips & Curious Facts Every Developer Should Know",
+    "permalink": "/carol-soares-blog/blog/python-tips-fun-facts"
+  },
+  "nextItem": {
+    "title": "6 Months in an Innovation Lab",
+    "permalink": "/carol-soares-blog/blog/long-blog-post"
+  }
+}
