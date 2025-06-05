@@ -1,0 +1,69 @@
+{
+  "permalink": "/carol-soares-blog/blog/python-tips-fun-facts",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-06-24-python-tips.md",
+  "source": "@site/blog/2025-06-24-python-tips.md",
+  "title": "Fun Python Tips & Curious Facts Every Developer Should Know",
+  "description": "Some Python tips and fun facts to make your coding journey more interesting!",
+  "date": "2025-06-24T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "python",
+      "permalink": "/carol-soares-blog/blog/tags/python"
+    },
+    {
+      "inline": true,
+      "label": "software development",
+      "permalink": "/carol-soares-blog/blog/tags/software-development"
+    },
+    {
+      "inline": true,
+      "label": "career",
+      "permalink": "/carol-soares-blog/blog/tags/career"
+    },
+    {
+      "inline": true,
+      "label": "tips",
+      "permalink": "/carol-soares-blog/blog/tags/tips"
+    }
+  ],
+  "readingTime": 4.255,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Carol Soares",
+      "title": "Backend Enginner @ Thoughtworks",
+      "url": "https://github.com/carolinesoarws",
+      "page": {
+        "permalink": "/carol-soares-blog/blog/authors/carolsoares"
+      },
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/caroline-soares-0ba238107/",
+        "github": "https://github.com/carolinesoarws"
+      },
+      "imageURL": "https://avatars.githubusercontent.com/u/83501330?v=4",
+      "key": "carolsoares"
+    }
+  ],
+  "frontMatter": {
+    "slug": "python-tips-fun-facts",
+    "title": "Fun Python Tips & Curious Facts Every Developer Should Know",
+    "authors": "carolsoares",
+    "tags": [
+      "python",
+      "software development",
+      "career",
+      "tips"
+    ],
+    "description": "Some Python tips and fun facts to make your coding journey more interesting!"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Dealing with mental health as a Developer",
+    "permalink": "/carol-soares-blog/blog/mental-health-being-a-developer"
+  },
+  "nextItem": {
+    "title": "What is a Large Language Model (LLM)?",
+    "permalink": "/carol-soares-blog/blog/large-language-models-llm"
+  }
+}

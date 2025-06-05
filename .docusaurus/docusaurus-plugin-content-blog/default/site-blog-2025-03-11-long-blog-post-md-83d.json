@@ -1,0 +1,94 @@
+{
+  "permalink": "/carol-soares-blog/blog/long-blog-post",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2025-03-11-long-blog-post.md",
+  "source": "@site/blog/2025-03-11-long-blog-post.md",
+  "title": "6 Months in an Innovation Lab",
+  "description": "Six months ago, I started working on an innovation project. The main idea of this project is to test innovative solutions for problems using Generative AI. It's been a completely new world for me, as until then, I had only worked on product delivery. Working in this lab completely took me out of my bubble, especially because I am a backend engineer. During this period, I've learned a few things:",
+  "date": "2025-03-11T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "generative AI",
+      "permalink": "/carol-soares-blog/blog/tags/generative-ai"
+    },
+    {
+      "inline": true,
+      "label": "innovation",
+      "permalink": "/carol-soares-blog/blog/tags/innovation"
+    },
+    {
+      "inline": true,
+      "label": "learnings",
+      "permalink": "/carol-soares-blog/blog/tags/learnings"
+    },
+    {
+      "inline": true,
+      "label": "artificial intelligence",
+      "permalink": "/carol-soares-blog/blog/tags/artificial-intelligence"
+    },
+    {
+      "inline": true,
+      "label": "machine learning",
+      "permalink": "/carol-soares-blog/blog/tags/machine-learning"
+    },
+    {
+      "inline": true,
+      "label": "technology",
+      "permalink": "/carol-soares-blog/blog/tags/technology"
+    },
+    {
+      "inline": true,
+      "label": "future",
+      "permalink": "/carol-soares-blog/blog/tags/future"
+    },
+    {
+      "inline": true,
+      "label": "creativity",
+      "permalink": "/carol-soares-blog/blog/tags/creativity"
+    },
+    {
+      "inline": true,
+      "label": "trends",
+      "permalink": "/carol-soares-blog/blog/tags/trends"
+    }
+  ],
+  "readingTime": 4.58,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Carol Soares",
+      "title": "Backend Enginner @ Thoughtworks",
+      "url": "https://github.com/carolinesoarws",
+      "page": {
+        "permalink": "/carol-soares-blog/blog/authors/carolsoares"
+      },
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/caroline-soares-0ba238107/",
+        "github": "https://github.com/carolinesoarws"
+      },
+      "imageURL": "https://avatars.githubusercontent.com/u/83501330?v=4",
+      "key": "carolsoares"
+    }
+  ],
+  "frontMatter": {
+    "slug": "long-blog-post",
+    "title": "6 Months in an Innovation Lab",
+    "authors": "carolsoares",
+    "tags": [
+      "generative AI",
+      "innovation",
+      "learnings",
+      "artificial intelligence",
+      "machine learning",
+      "technology",
+      "future",
+      "creativity",
+      "trends"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "My Experience at TheDevConf 2025",
+    "permalink": "/carol-soares-blog/blog/dtc-conference"
+  }
+}
