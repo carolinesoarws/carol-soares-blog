@@ -1,9 +1,9 @@
 ---
-slug: mental-helth-being-a-developer
-title: Dealing with mental helth as a Developer
+slug: mental-health-being-a-developer
+title: Dealing with mental health as a Developer
 authors: carolsoares
-tags: [software development, mental helth]
-description: We need to talk about mental helth as a developer.
+tags: [software development, mental health]
+description: We need to talk about mental health as a developer.
 ---
 
 Hey everyone! ❤️✨ <br />
